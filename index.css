@@ -1,0 +1,27 @@
+.container {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cont {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: .5px;
+}
+
+.cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 50px;
+    background-color: orange;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: green
+    }
+}
